@@ -1,4 +1,4 @@
-#GODOT Nodes
+# GODOT Nodes
 
 Une node peut contenir d'autres nodes. 
 Les nodes enfants sont soumis aux transformations 

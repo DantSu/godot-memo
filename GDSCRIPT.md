@@ -122,6 +122,7 @@ func _ready():
 ## Signals
 
 Un signal est un évènement qui appelle une méthode. 
+
 Par exemple, un Area2D possède un signal `area_entered` qui est déclenché 
 lorsqu'un autre Area2D entre en collision avec lui. Ce signal doit être lié 
 à une méthode d'un script d'une node.
@@ -132,6 +133,14 @@ func _on_area_entered(area):
 		area.update_starship(self)
 		if area.is_in_group("enemies") and area.is_in_group("enemies_boss") == false:
 			update_enemy(area)
+```
+
+Ou encore, un Button possède un signal `pressed` qui est déclenché 
+lorsque l'utilisateur lui clique dessus.
+
+```
+func _on_pressed():
+	get_tree().reload_current_scene()
 ```
 
 ## Curseur
