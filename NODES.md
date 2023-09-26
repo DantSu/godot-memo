@@ -56,3 +56,11 @@ Doit contenir des PathFollow2D. Contraint ses enfants (PathFollow) à suivre une
 ## PathFollow2D
 
 Doit être enfant de PathAnimated. Suit la courbe définit par son parent.
+
+## Label
+
+Écrit du texte à l'écran.
+
+# Button
+
+Affiche un bouton à l'écran possédant des signals appropriés à l'intéraction utilisateur.
