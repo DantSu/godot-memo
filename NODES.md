@@ -61,6 +61,6 @@ Doit être enfant de PathAnimated. Suit la courbe définit par son parent.
 
 Écrit du texte à l'écran.
 
-# Button
+## Button
 
 Affiche un bouton à l'écran possédant des signals appropriés à l'intéraction utilisateur.
