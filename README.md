@@ -8,3 +8,4 @@ Web.
 
 - [GD Script](./GDSCRIPT.md)
 - [Nodes](./NODES.md)
+- [Fonctions mathématiques](./MATH.md)
