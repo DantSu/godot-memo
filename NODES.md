@@ -41,6 +41,9 @@ Génère des particules (des Sprite2D) suivant des paramètres définit (vitesse
 Doit contenir une ou plusieurs nodes de collision (CollisionPolygon2D, CollisionShape2D).
 L'Area2D émet un signal lors d'une collision avec un autre Area2D.
 
+- Collision Layer : Les calques auquel l'Area2D appartient
+- Collision Mask : Les calques avec lesquels l'Area2D va intéragir
+
 ## CollisionPolygon2D
 
 Doit être enfant de Area2D. Dessine un polygone à N côtés de collision.

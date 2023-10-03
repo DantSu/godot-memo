@@ -194,6 +194,10 @@ queue_free()
 - get_offset
 - add_child
 - get_parent
+- get_h_offset (PathFollow2D)
+- get_v_offset (PathFollow2D)
+- set_h_offset (PathFollow2D)
+- set_v_offset (PathFollow2D)
 
 ## Prefab (Appelé scene dans Godot)
 
