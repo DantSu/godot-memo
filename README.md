@@ -12,3 +12,4 @@ Web.
 
 
 https://we.tl/t-0xRKG8GvNZ
+https://discord.gg/nekSPN2N
